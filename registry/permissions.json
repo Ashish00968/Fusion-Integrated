@@ -38,80 +38,42 @@
       "grants": {
         "Dean": [
           "leave_elm.application.apply",
-          "leave_elm.application.cancel",
           "leave_elm.application.review",
           "leave_elm.application.view_self",
           "leave_elm.application.withdraw",
-          "leave_elm.resumption.review",
-          "leave_elm.resumption.submit",
           "leave_elm.substitute.respond"
         ],
         "Director": [
           "leave_elm.application.apply",
-          "leave_elm.application.cancel",
           "leave_elm.application.review",
           "leave_elm.application.view_self",
           "leave_elm.application.withdraw",
-          "leave_elm.resumption.review",
-          "leave_elm.resumption.submit",
-          "leave_elm.substitute.respond"
-        ],
-        "Establishment Admin": [
-          "leave_elm.application.apply",
-          "leave_elm.application.cancel",
-          "leave_elm.application.review",
-          "leave_elm.application.view_self",
-          "leave_elm.application.withdraw",
-          "leave_elm.policy.manage",
-          "leave_elm.record.manage",
-          "leave_elm.resumption.review",
-          "leave_elm.resumption.submit",
-          "leave_elm.substitute.respond"
-        ],
-        "Leave Approver": [
-          "leave_elm.application.apply",
-          "leave_elm.application.cancel",
-          "leave_elm.application.review",
-          "leave_elm.application.view_self",
-          "leave_elm.application.withdraw",
-          "leave_elm.resumption.review",
-          "leave_elm.resumption.submit",
           "leave_elm.substitute.respond"
         ],
         "Registrar": [
           "leave_elm.application.apply",
-          "leave_elm.application.cancel",
           "leave_elm.application.review",
           "leave_elm.application.view_self",
           "leave_elm.application.withdraw",
-          "leave_elm.resumption.review",
-          "leave_elm.resumption.submit",
           "leave_elm.substitute.respond"
         ],
         "Unit Head": [
           "leave_elm.application.apply",
-          "leave_elm.application.cancel",
           "leave_elm.application.review",
           "leave_elm.application.view_self",
           "leave_elm.application.withdraw",
-          "leave_elm.resumption.review",
-          "leave_elm.resumption.submit",
           "leave_elm.substitute.respond"
         ],
         "faculty": [
           "leave_elm.application.apply",
-          "leave_elm.application.cancel",
           "leave_elm.application.view_self",
           "leave_elm.application.withdraw",
-          "leave_elm.resumption.submit",
           "leave_elm.substitute.respond"
         ],
         "staff": [
           "leave_elm.application.apply",
-          "leave_elm.application.cancel",
           "leave_elm.application.view_self",
           "leave_elm.application.withdraw",
-          "leave_elm.resumption.submit",
           "leave_elm.substitute.respond"
         ],
         "student": []
@@ -119,8 +81,6 @@
       "module_grants": [
         "Dean",
         "Director",
-        "Establishment Admin",
-        "Leave Approver",
         "Registrar",
         "Unit Head",
         "faculty",
@@ -149,47 +109,16 @@
           "label": "Withdraw own pending leave request"
         },
         {
-          "code": "leave_elm.application.cancel",
-          "label": "Request cancellation of approved leave"
-        },
-        {
-          "code": "leave_elm.substitute.respond",
-          "label": "Accept or decline nominated substitute request"
-        },
-        {
-          "code": "leave_elm.resumption.submit",
-          "label": "Submit resumption of duty after leave"
-        },
-        {
           "code": "leave_elm.application.review",
           "label": "Review, recommend or sanction leave requests"
         },
         {
-          "code": "leave_elm.resumption.review",
-          "label": "Review and accept resumption of duty"
-        },
-        {
-          "code": "leave_elm.policy.manage",
-          "label": "Maintain leave policy, holidays and configurations"
-        },
-        {
-          "code": "leave_elm.record.manage",
-          "label": "Record offline-sanctioned leaves and adjustments"
-        },
-        {
-          "code": "leave_elm.system.year_end_convert",
-          "label": "System year-end leave conversion"
-        },
-        {
-          "code": "leave_elm.system.sla_escalate",
-          "label": "System automated SLA escalation"
+          "code": "leave_elm.substitute.respond",
+          "label": "Accept or decline nominated substitute request"
         }
       ],
       "scope_permissions": [],
-      "system_permissions": [
-        "leave_elm.system.sla_escalate",
-        "leave_elm.system.year_end_convert"
-      ]
+      "system_permissions": []
     },
     "placement_cell": {
       "grants": {

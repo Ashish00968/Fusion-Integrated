@@ -1,1 +1,1 @@
-# Migrations package for leave_elm
+# Migrations for leave_elm

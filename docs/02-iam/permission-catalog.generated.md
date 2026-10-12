@@ -17,18 +17,11 @@ For the intended taxonomy of modules not yet built, see
 
 | Code | What it allows | Held by |
 |---|---|---|
-| `leave_elm.application.view_self` | View own leave applications and balances | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head`, `faculty`, `staff` |
-| `leave_elm.application.apply` | Submit a new leave application | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head`, `faculty`, `staff` |
-| `leave_elm.application.withdraw` | Withdraw own pending leave request | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head`, `faculty`, `staff` |
-| `leave_elm.application.cancel` | Request cancellation of approved leave | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head`, `faculty`, `staff` |
-| `leave_elm.substitute.respond` | Accept or decline nominated substitute request | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head`, `faculty`, `staff` |
-| `leave_elm.resumption.submit` | Submit resumption of duty after leave | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head`, `faculty`, `staff` |
-| `leave_elm.application.review` | Review, recommend or sanction leave requests | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head` |
-| `leave_elm.resumption.review` | Review and accept resumption of duty | `Dean`, `Director`, `Establishment Admin`, `Leave Approver`, `Registrar`, `Unit Head` |
-| `leave_elm.policy.manage` | Maintain leave policy, holidays and configurations | `Establishment Admin` |
-| `leave_elm.record.manage` | Record offline-sanctioned leaves and adjustments | `Establishment Admin` |
-| `leave_elm.system.year_end_convert` | System year-end leave conversion | _service only_ |
-| `leave_elm.system.sla_escalate` | System automated SLA escalation | _service only_ |
+| `leave_elm.application.view_self` | View own leave applications and balances | `Dean`, `Director`, `Registrar`, `Unit Head`, `faculty`, `staff` |
+| `leave_elm.application.apply` | Submit a new leave application | `Dean`, `Director`, `Registrar`, `Unit Head`, `faculty`, `staff` |
+| `leave_elm.application.withdraw` | Withdraw own pending leave request | `Dean`, `Director`, `Registrar`, `Unit Head`, `faculty`, `staff` |
+| `leave_elm.application.review` | Review, recommend or sanction leave requests | `Dean`, `Director`, `Registrar`, `Unit Head` |
+| `leave_elm.substitute.respond` | Accept or decline nominated substitute request | `Dean`, `Director`, `Registrar`, `Unit Head`, `faculty`, `staff` |
 
 ## `placement_cell`
 
