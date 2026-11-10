@@ -1,0 +1,371 @@
+[
+  {
+    "test_id": "TEST-BR-001",
+    "source_id": "BR-EL-001 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-001 \u2014 Supported leave-category eligibility",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-001",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-002",
+    "source_id": "BR-EL-002 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-002 \u2014 Casual Leave entitlement and lapse",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-002",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-003",
+    "source_id": "BR-EL-002 boundary-or-prohibited",
+    "purpose": "Verify boundary, threshold limit, or prohibited outcome for BR-EL-002",
+    "preconditions": "State where parameter is at or beyond boundary/threshold",
+    "action_or_input": "Evaluate boundary input or violation condition for BR-EL-002",
+    "expected_result": "Appropriate threshold restriction, lapse, or prohibition outcome enforced",
+    "test_type": "business_rule_boundary_negative"
+  },
+  {
+    "test_id": "TEST-BR-004",
+    "source_id": "BR-EL-003 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-003 \u2014 Restricted Holiday entitlement and applicability",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-003",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-005",
+    "source_id": "BR-EL-004 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-004 \u2014 Special Casual Leave entitlement and admissibility",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-004",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-006",
+    "source_id": "BR-EL-005 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-005 \u2014 Non-faculty Earned Leave credit and carry-forward",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-005",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-007",
+    "source_id": "BR-EL-006 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-006 \u2014 Faculty Vacation Leave entitlement and vacation-period applicability",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-006",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-008",
+    "source_id": "BR-EL-007 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-007 \u2014 VL-to-EL year-end conversion",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-007",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-009",
+    "source_id": "BR-EL-008 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-008 \u2014 Treatment of EL created by VL conversion",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-008",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-010",
+    "source_id": "BR-EL-009 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-009 \u2014 Commuted Leave entitlement and treatment",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-009",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-011",
+    "source_id": "BR-EL-010 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-010 \u2014 Half-day CL treatment",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-010",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-012",
+    "source_id": "BR-EL-010 boundary-or-prohibited",
+    "purpose": "Verify boundary, threshold limit, or prohibited outcome for BR-EL-010",
+    "preconditions": "State where parameter is at or beyond boundary/threshold",
+    "action_or_input": "Evaluate boundary input or violation condition for BR-EL-010",
+    "expected_result": "Appropriate threshold restriction, lapse, or prohibition outcome enforced",
+    "test_type": "business_rule_boundary_negative"
+  },
+  {
+    "test_id": "TEST-BR-013",
+    "source_id": "BR-EL-011 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-011 \u2014 Continuous-day counting",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-011",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-014",
+    "source_id": "BR-EL-012 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-012 \u2014 Applicant non-overlap with half-day CL exception",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-012",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-015",
+    "source_id": "BR-EL-012 boundary-or-prohibited",
+    "purpose": "Verify boundary, threshold limit, or prohibited outcome for BR-EL-012",
+    "preconditions": "State where parameter is at or beyond boundary/threshold",
+    "action_or_input": "Evaluate boundary input or violation condition for BR-EL-012",
+    "expected_result": "Appropriate threshold restriction, lapse, or prohibition outcome enforced",
+    "test_type": "business_rule_boundary_negative"
+  },
+  {
+    "test_id": "TEST-BR-016",
+    "source_id": "BR-EL-013 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-013 \u2014 Station Leave coupling",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-013",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-017",
+    "source_id": "BR-EL-014 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-014 \u2014 Substitute eligibility",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-014",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-018",
+    "source_id": "BR-EL-015 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-015 \u2014 Substitute consent gate and decline recovery",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-015",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-019",
+    "source_id": "BR-EL-016 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-016 \u2014 Unit Head final scope for CL/RH",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-016",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-020",
+    "source_id": "BR-EL-017 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-017 \u2014 Unit Head recommendation for higher-sanction leave",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-017",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-021",
+    "source_id": "BR-EL-018 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-018 \u2014 Higher-sanction routing",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-018",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-022",
+    "source_id": "BR-EL-019 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-019 \u2014 Authority resolution and optional Establishment step",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-019",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-023",
+    "source_id": "BR-EL-020 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-020 \u2014 Director self-sanction",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-020",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-024",
+    "source_id": "BR-EL-021 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-021 \u2014 RETIRED \u2014 Modify Pending Request",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-021",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-025",
+    "source_id": "BR-EL-022 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-022 \u2014 Immediate withdrawal of pending request",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-022",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-026",
+    "source_id": "BR-EL-023 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-023 \u2014 Cancellation of approved leave before start",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-023",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-027",
+    "source_id": "BR-EL-024 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-024 \u2014 Fresh application after cancellation",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-024",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-028",
+    "source_id": "BR-EL-025 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-025 \u2014 Extension of ongoing EL/COL/VL",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-025",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-029",
+    "source_id": "BR-EL-026 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-026 \u2014 RETIRED IDENTIFIER",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-026",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-030",
+    "source_id": "BR-EL-027 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-027 \u2014 Resumption applicability and review authority",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-027",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-031",
+    "source_id": "BR-EL-028 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-028 \u2014 Normal, early, and late resumption outcome",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-028",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-032",
+    "source_id": "BR-EL-029 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-029 \u2014 Offline-sanctioned leave synchronization",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-029",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-033",
+    "source_id": "BR-EL-030 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-030 \u2014 Current configured policy and hierarchy",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-030",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-034",
+    "source_id": "BR-EL-031 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-031 \u2014 Effective published holiday/RH calendar",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-031",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-035",
+    "source_id": "BR-EL-032 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-032 \u2014 SLA reminder on still-pending task",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-032",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-036",
+    "source_id": "BR-EL-033 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-033 \u2014 SLA escalation on still-pending task",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-033",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-037",
+    "source_id": "BR-EL-034 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-034 \u2014 No post-submission modification",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-034",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-038",
+    "source_id": "BR-EL-035 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-035 \u2014 Actionable task assignment notification",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-035",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-039",
+    "source_id": "BR-EL-036 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-036 \u2014 Role-based authorization",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-036",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-040",
+    "source_id": "BR-EL-037 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-037 \u2014 Administrative maintenance is not sanctioning",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-037",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  },
+  {
+    "test_id": "TEST-BR-041",
+    "source_id": "BR-EL-038 base-satisfaction",
+    "purpose": "Verify compliance with business rule BR-EL-038 \u2014 Configurable SLA thresholds",
+    "preconditions": "State where business rule applies with valid parameters",
+    "action_or_input": "Evaluate rule condition for BR-EL-038",
+    "expected_result": "Rule evaluates to permitted/true outcome as defined in specification",
+    "test_type": "business_rule_positive"
+  }
+]

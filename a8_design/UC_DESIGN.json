@@ -1,0 +1,317 @@
+[
+  {
+    "test_id": "TEST-UC-001",
+    "source_id": "EL-UC-001 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-001 \u2014 Apply for Leave",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-001",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-002",
+    "source_id": "EL-UC-001 path.\nAlternative / Excep",
+    "purpose": "Verify alternative/exception flow path.\nAlternative / Exception Flows for EL-UC-001",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-001",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-003",
+    "source_id": "EL-UC-002 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-002 \u2014 Respond to Substitute Request",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-002",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-004",
+    "source_id": "EL-UC-002 Required.\nAlternative / E",
+    "purpose": "Verify alternative/exception flow Required.\nAlternative / Exception Flows for EL-UC-002",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-002",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-005",
+    "source_id": "EL-UC-003 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-003 \u2014 Review Leave-Related Request at Unit Head",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-003",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-006",
+    "source_id": "EL-UC-003 path.\nAlternative / Excep",
+    "purpose": "Verify alternative/exception flow path.\nAlternative / Exception Flows for EL-UC-003",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-003",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-007",
+    "source_id": "EL-UC-004 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-004 \u2014 Verify and Route Higher-Sanction Request",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-004",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-008",
+    "source_id": "EL-UC-004 Authority.\nAlternative /",
+    "purpose": "Verify alternative/exception flow Authority.\nAlternative / Exception Flows for EL-UC-004",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-004",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-009",
+    "source_id": "EL-UC-005 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-005 \u2014 Make Final Sanctioning Decision",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-005",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-010",
+    "source_id": "EL-UC-005 leave.\nAlternative / Exce",
+    "purpose": "Verify alternative/exception flow leave.\nAlternative / Exception Flows for EL-UC-005",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-005",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-011",
+    "source_id": "EL-UC-007 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-007 \u2014 Withdraw Pending Request",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-007",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-012",
+    "source_id": "EL-UC-007 roles.\nAlternative / Exce",
+    "purpose": "Verify alternative/exception flow roles.\nAlternative / Exception Flows for EL-UC-007",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-007",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-013",
+    "source_id": "EL-UC-008 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-008 \u2014 Request Cancellation of Approved Leave",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-008",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-014",
+    "source_id": "EL-UC-008 leave.\nAlternative / Exce",
+    "purpose": "Verify alternative/exception flow leave.\nAlternative / Exception Flows for EL-UC-008",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-008",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-015",
+    "source_id": "EL-UC-009 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-009 \u2014 Request Extension of Ongoing Leave",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-009",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-016",
+    "source_id": "EL-UC-009 path.\nAlternative / Excep",
+    "purpose": "Verify alternative/exception flow path.\nAlternative / Exception Flows for EL-UC-009",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-009",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-017",
+    "source_id": "EL-UC-010 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-010 \u2014 Submit Resumption of Duty",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-010",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-018",
+    "source_id": "EL-UC-010 review.\nAlternative / Exc",
+    "purpose": "Verify alternative/exception flow review.\nAlternative / Exception Flows for EL-UC-010",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-010",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-019",
+    "source_id": "EL-UC-011 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-011 \u2014 Review Resumption",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-011",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-020",
+    "source_id": "EL-UC-011 records.\nAlternative / Ex",
+    "purpose": "Verify alternative/exception flow records.\nAlternative / Exception Flows for EL-UC-011",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-011",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-021",
+    "source_id": "EL-UC-012 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-012 \u2014 View Leave Balances and History",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-012",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-022",
+    "source_id": "EL-UC-013 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-013 \u2014 Obtain Printable/Exportable Leave Application",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-013",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-023",
+    "source_id": "EL-UC-014 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-014 \u2014 Maintain Policy and Hierarchy Configuration",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-014",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-024",
+    "source_id": "EL-UC-014 values.\nAlternative / Exc",
+    "purpose": "Verify alternative/exception flow values.\nAlternative / Exception Flows for EL-UC-014",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-014",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-025",
+    "source_id": "EL-UC-015 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-015 \u2014 Maintain and Publish Holiday/RH Calendar",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-015",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-026",
+    "source_id": "EL-UC-015 validation.\nAlternative /",
+    "purpose": "Verify alternative/exception flow validation.\nAlternative / Exception Flow for EL-UC-015",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-015",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-027",
+    "source_id": "EL-UC-016 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-016 \u2014 Record Already-Sanctioned Offline Leave",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-016",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-028",
+    "source_id": "EL-UC-016 workflow.\nAlternative / E",
+    "purpose": "Verify alternative/exception flow workflow.\nAlternative / Exception Flows for EL-UC-016",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-016",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-029",
+    "source_id": "EL-UC-017 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-017 \u2014 Maintain Authorized Leave Records",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-017",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-030",
+    "source_id": "EL-UC-017 implemented.\nAlternative",
+    "purpose": "Verify alternative/exception flow implemented.\nAlternative / Exception Flo for EL-UC-017",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-017",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-031",
+    "source_id": "EL-UC-018 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-018 \u2014 Configure Workflow SLA Thresholds",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-018",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-032",
+    "source_id": "EL-UC-019 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-019 \u2014 Nominate Replacement Substitute After Decline",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-019",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-033",
+    "source_id": "EL-UC-019 Response.\nAlternative / E",
+    "purpose": "Verify alternative/exception flow Response.\nAlternative / Exception Flows for EL-UC-019",
+    "preconditions": "Preconditions for alternative branch or error trigger",
+    "action_or_input": "Trigger branch/exception condition for EL-UC-019",
+    "expected_result": "System correctly routes or handles branch per specification",
+    "test_type": "use_case_alternative_flow"
+  },
+  {
+    "test_id": "TEST-UC-034",
+    "source_id": "EL-UC-020 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-020 \u2014 Execute Year-End Leave Processing",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-020",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  },
+  {
+    "test_id": "TEST-UC-035",
+    "source_id": "EL-UC-021 Main Flow",
+    "purpose": "Verify main success flow for EL-UC-021 \u2014 Process SLA Threshold Event",
+    "preconditions": "System initialized with valid actors and data for UC execution",
+    "action_or_input": "Execute complete main success sequence for EL-UC-021",
+    "expected_result": "All steps succeed and postconditions satisfied per specification",
+    "test_type": "use_case_main_flow"
+  }
+]

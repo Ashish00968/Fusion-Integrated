@@ -1,0 +1,23 @@
+..........................................                               [100%]
+================================ tests coverage ================================
+______________ coverage: platform darwin, python 3.12.13-final-0 _______________
+
+Name                                                                 Stmts   Miss Branch BrPart  Cover   Missing
+----------------------------------------------------------------------------------------------------------------
+modules/leave_elm/__init__.py                                            1      0      0      0   100%
+modules/leave_elm/api/__init__.py                                        0      0      0      0   100%
+modules/leave_elm/api/serializers.py                                    38     21     12      0    34%   49-84
+modules/leave_elm/api/urls.py                                            4      4      0      0     0%   1-7
+modules/leave_elm/api/views.py                                         142     99     32      0    25%   23, 28-44, 52-54, 61-63, 66-67, 70-124, 138-158, 167-202, 209-223, 230-264
+modules/leave_elm/apps.py                                                6      0      0      0   100%
+modules/leave_elm/migrations/0001_initial.py                             6      6      0      0     0%   3-14
+modules/leave_elm/migrations/0002_alter_leaveapplication_status.py       4      4      0      0     0%   3-12
+modules/leave_elm/migrations/__init__.py                                 0      0      0      0   100%
+modules/leave_elm/models.py                                             42      2      0      0    95%   37, 61
+modules/leave_elm/registry.py                                            7      7      0      0     0%   3-37
+modules/leave_elm/tests/__init__.py                                      0      0      0      0   100%
+modules/leave_elm/tests/test_leave_elm.py                               69     69      0      0     0%   1-130
+----------------------------------------------------------------------------------------------------------------
+TOTAL                                                                  319    212     44      0    29%
+Coverage XML written to file a8_results/wf/coverage.xml
+42 passed in 0.45s

@@ -1,0 +1,380 @@
+[
+  {
+    "test_id": "TEST-WF-001",
+    "source_id": "BW-EL-01 approval/progression path",
+    "purpose": "Verify New CL/RH \u2014 No Substitute Gate progression path (CL/RH: no substitute \u2192 Unit Head decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-01",
+    "action_or_input": "Step through all transitions of BW-EL-01 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-002",
+    "source_id": "BW-EL-01 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-01",
+    "preconditions": "Active request in pending stage of BW-EL-01",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-003",
+    "source_id": "BW-EL-02 approval/progression path",
+    "purpose": "Verify New CL/RH \u2014 Substitute Accepted (No Loop) progression path (CL/RH: substitute accept \u2192 Unit Head decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-02",
+    "action_or_input": "Step through all transitions of BW-EL-02 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-004",
+    "source_id": "BW-EL-02 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-02",
+    "preconditions": "Active request in pending stage of BW-EL-02",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-005",
+    "source_id": "BW-EL-03 approval/progression path",
+    "purpose": "Verify New CL/RH \u2014 Substitute Declined, Replacement Accepted (One Loop Traversal) progression path (CL/RH: one decline/replacement loop \u2192 Unit Head decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-03",
+    "action_or_input": "Step through all transitions of BW-EL-03 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-006",
+    "source_id": "BW-EL-03 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-03",
+    "preconditions": "Active request in pending stage of BW-EL-03",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-007",
+    "source_id": "BW-EL-04 approval/progression path",
+    "purpose": "Verify New Higher-Sanction Leave \u2014 No Substitute Gate progression path (Higher-sanction: no substitute \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-04",
+    "action_or_input": "Step through all transitions of BW-EL-04 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-008",
+    "source_id": "BW-EL-04 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-04",
+    "preconditions": "Active request in pending stage of BW-EL-04",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-009",
+    "source_id": "BW-EL-05 approval/progression path",
+    "purpose": "Verify New Higher-Sanction Leave \u2014 Substitute Accepted (No Loop) progression path (Higher-sanction: substitute accept \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-05",
+    "action_or_input": "Step through all transitions of BW-EL-05 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-010",
+    "source_id": "BW-EL-05 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-05",
+    "preconditions": "Active request in pending stage of BW-EL-05",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-011",
+    "source_id": "BW-EL-06 approval/progression path",
+    "purpose": "Verify New Higher-Sanction Leave \u2014 Substitute Declined, Replacement Accepted (One Loop Traversal) progression path (Higher-sanction: one decline/replacement loop \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-06",
+    "action_or_input": "Step through all transitions of BW-EL-06 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-012",
+    "source_id": "BW-EL-06 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-06",
+    "preconditions": "Active request in pending stage of BW-EL-06",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-013",
+    "source_id": "BW-EL-07 approval/progression path",
+    "purpose": "Verify Director Self-Sanction \u2014 No Substitute Gate progression path (Director: no substitute \u2192 self-sanction decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-07",
+    "action_or_input": "Step through all transitions of BW-EL-07 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-014",
+    "source_id": "BW-EL-07 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-07",
+    "preconditions": "Active request in pending stage of BW-EL-07",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-015",
+    "source_id": "BW-EL-08 approval/progression path",
+    "purpose": "Verify Director Self-Sanction \u2014 Substitute Accepted (No Loop) progression path (Director: substitute accept \u2192 self-sanction decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-08",
+    "action_or_input": "Step through all transitions of BW-EL-08 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-016",
+    "source_id": "BW-EL-08 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-08",
+    "preconditions": "Active request in pending stage of BW-EL-08",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-017",
+    "source_id": "BW-EL-09 approval/progression path",
+    "purpose": "Verify Director Self-Sanction \u2014 Substitute Declined, Replacement Accepted (One Loop Traversal) progression path (Director: one decline/replacement loop \u2192 self-sanction decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-09",
+    "action_or_input": "Step through all transitions of BW-EL-09 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-018",
+    "source_id": "BW-EL-09 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-09",
+    "preconditions": "Active request in pending stage of BW-EL-09",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-019",
+    "source_id": "BW-EL-10 approval/progression path",
+    "purpose": "Verify CL/RH Approved-Leave Cancellation progression path (CL/RH cancellation \u2192 Unit Head decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-10",
+    "action_or_input": "Step through all transitions of BW-EL-10 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-020",
+    "source_id": "BW-EL-10 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-10",
+    "preconditions": "Active request in pending stage of BW-EL-10",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-021",
+    "source_id": "BW-EL-11 approval/progression path",
+    "purpose": "Verify Higher-Sanction Approved-Leave Cancellation progression path (Higher-sanction cancellation \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-11",
+    "action_or_input": "Step through all transitions of BW-EL-11 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-022",
+    "source_id": "BW-EL-11 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-11",
+    "preconditions": "Active request in pending stage of BW-EL-11",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-023",
+    "source_id": "BW-EL-12 approval/progression path",
+    "purpose": "Verify Ongoing Leave Extension \u2014 No Substitute Gate progression path (Extension: no substitute \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-12",
+    "action_or_input": "Step through all transitions of BW-EL-12 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-024",
+    "source_id": "BW-EL-12 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-12",
+    "preconditions": "Active request in pending stage of BW-EL-12",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-025",
+    "source_id": "BW-EL-13 approval/progression path",
+    "purpose": "Verify Ongoing Leave Extension \u2014 Substitute Accepted (No Loop) progression path (Extension: substitute accept \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-13",
+    "action_or_input": "Step through all transitions of BW-EL-13 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-026",
+    "source_id": "BW-EL-13 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-13",
+    "preconditions": "Active request in pending stage of BW-EL-13",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-027",
+    "source_id": "BW-EL-14 approval/progression path",
+    "purpose": "Verify Ongoing Leave Extension \u2014 Substitute Declined, Replacement Accepted (One Loop Traversal) progression path (Extension: one decline/replacement loop \u2192 final decision)",
+    "preconditions": "Valid request matching conditions for BW-EL-14",
+    "action_or_input": "Step through all transitions of BW-EL-14 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-028",
+    "source_id": "BW-EL-14 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-14",
+    "preconditions": "Active request in pending stage of BW-EL-14",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-029",
+    "source_id": "BW-EL-15 approval/progression path",
+    "purpose": "Verify Normal Resumption Review progression path (Normal resumption \u2192 review)",
+    "preconditions": "Valid request matching conditions for BW-EL-15",
+    "action_or_input": "Step through all transitions of BW-EL-15 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-030",
+    "source_id": "BW-EL-15 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-15",
+    "preconditions": "Active request in pending stage of BW-EL-15",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-031",
+    "source_id": "BW-EL-16 approval/progression path",
+    "purpose": "Verify Early Resumption Review progression path (Early resumption \u2192 review and synchronize)",
+    "preconditions": "Valid request matching conditions for BW-EL-16",
+    "action_or_input": "Step through all transitions of BW-EL-16 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-032",
+    "source_id": "BW-EL-16 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-16",
+    "preconditions": "Active request in pending stage of BW-EL-16",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-033",
+    "source_id": "BW-EL-17 approval/progression path",
+    "purpose": "Verify Late Resumption Review progression path (Late resumption \u2192 review and synchronize)",
+    "preconditions": "Valid request matching conditions for BW-EL-17",
+    "action_or_input": "Step through all transitions of BW-EL-17 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-034",
+    "source_id": "BW-EL-17 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for BW-EL-17",
+    "preconditions": "Active request in pending stage of BW-EL-17",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-035",
+    "source_id": "CW-EL-01 approval/progression path",
+    "purpose": "Verify New Leave Processing and Pending Withdrawal progression path (Integrated new-leave progression + pending withdrawal)",
+    "preconditions": "Valid request matching conditions for CW-EL-01",
+    "action_or_input": "Step through all transitions of CW-EL-01 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-036",
+    "source_id": "CW-EL-01 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for CW-EL-01",
+    "preconditions": "Active request in pending stage of CW-EL-01",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-037",
+    "source_id": "CW-EL-02 approval/progression path",
+    "purpose": "Verify Approved Leave Cancellation progression path (Integrated approved-leave cancellation)",
+    "preconditions": "Valid request matching conditions for CW-EL-02",
+    "action_or_input": "Step through all transitions of CW-EL-02 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-038",
+    "source_id": "CW-EL-02 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for CW-EL-02",
+    "preconditions": "Active request in pending stage of CW-EL-02",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-039",
+    "source_id": "CW-EL-03 approval/progression path",
+    "purpose": "Verify Ongoing Leave Extension progression path (Integrated ongoing-leave extension + withdrawal)",
+    "preconditions": "Valid request matching conditions for CW-EL-03",
+    "action_or_input": "Step through all transitions of CW-EL-03 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-040",
+    "source_id": "CW-EL-03 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for CW-EL-03",
+    "preconditions": "Active request in pending stage of CW-EL-03",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  },
+  {
+    "test_id": "TEST-WF-041",
+    "source_id": "CW-EL-04 approval/progression path",
+    "purpose": "Verify Resumption Review progression path (Integrated normal/early/late resumption review)",
+    "preconditions": "Valid request matching conditions for CW-EL-04",
+    "action_or_input": "Step through all transitions of CW-EL-04 to completion/approval",
+    "expected_result": "All state transitions succeed and final approved/completed state is reached",
+    "test_type": "workflow_progression"
+  },
+  {
+    "test_id": "TEST-WF-042",
+    "source_id": "CW-EL-04 rejection/withdrawal path",
+    "purpose": "Verify alternative rejection or withdrawal termination for CW-EL-04",
+    "preconditions": "Active request in pending stage of CW-EL-04",
+    "action_or_input": "Submit rejection decision, substitute decline, or applicant withdrawal",
+    "expected_result": "Request cleanly transitions to terminal rejected/withdrawn state per STT",
+    "test_type": "workflow_exception"
+  }
+]
